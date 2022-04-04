@@ -845,6 +845,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "aptos-types",
+ "aptos-vm",
  "aptos-workspace-hack",
  "move-binary-format",
  "move-core-types",
@@ -3397,6 +3398,7 @@ version = "0.1.0"
 dependencies = [
  "aptos-resource-viewer",
  "aptos-types",
+ "aptos-vm",
  "aptos-workspace-hack",
  "cached-framework-packages",
  "move-binary-format",
@@ -5157,6 +5159,7 @@ source = "git+https://github.com/move-language/move?rev=476305d239ce6afafce15a29
 dependencies = [
  "anyhow",
  "move-core-types",
+ "move-table-extension",
 ]
 
 [[package]]
